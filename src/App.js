@@ -13,6 +13,7 @@ export default function App() {
   const [paginated, setPaginated] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   let postSize = 5;
+  
   const pageCount = posts ? Math.ceil(posts.length / postSize) : 0;
   // console.log("pageCount",pageCount)
   if (pageCount === 1) return null;
