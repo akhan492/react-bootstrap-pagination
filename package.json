@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@edge-runtime/vm": "^1.0.1",
+    "@popperjs/core": "^2.11.5",
+    "@types/react": "18.0.15",
+    "@vitest/browser": "^0.20.2",
+    "@vitest/ui": "^0.20.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "c8": "^7.12.0",
+    "canvas": "^2.5.0",
+    "happy-dom": "^6.0.4",
+    "jsdom": "^20.0.0",
+    "lodash": "^4.17.21",
+    "react": "18.2.0",
+    "react-bootstrap": "2.4.0",
+    "react-dom": "18.2.0",
+    "vitest": "^0.20.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
